@@ -1,0 +1,52 @@
+@import "variables";
+@import "nav";
+@import "Header";
+@import "Projects";
+@import "skills";
+@import "contact";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 10px/16px = 62.5% -> 1rem = 10px
+}
+
+body {
+  font-family: $font;
+  color: $primary;
+  font-weight: 300;
+  line-height: 1.6;
+  font-size: 1.6rem;
+}
+
+section::before {
+  content: "";
+  display: block;
+  // z-index: 1;
+  border: none;
+  border-top: 1px solid $section_separator;
+  width: 90%;
+  height: 5px;
+  margin: 0 auto 0 auto;
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 5rem;
+  font-size: 4rem;
+  font-weight: 200;
+}
