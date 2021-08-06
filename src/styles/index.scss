@@ -18,10 +18,10 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
 
-  @include respond(sm-desk) {
-    // width < 1360
-    font-size: 60.5%;
-  }
+  // @include respond(sm-desk) {
+  //   // width < 1360
+  //   font-size: 60.5%;
+  // }
   @include respond(tab-land) {
     // width < 1280
     font-size: 62.5%;

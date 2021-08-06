@@ -3,7 +3,13 @@ import Grid from "@material-ui/core/Grid";
 import ReactWApp from "../pictures/screenshot_react_weather_app.png";
 import ShoppingCart from "../pictures/front-end-shopping-cart.jpg";
 
+import useMediaQuery from "@material-ui/core/useMediaQuery";
+import { useTheme } from "@material-ui/core/styles";
+
 const Projects = () => {
+  const theme = useTheme();
+  const matches = useMediaQuery(theme.breakpoints.down("md"));
+
   return (
     <section id="projects" className="project">
       <Grid container direction="column">
@@ -11,7 +17,9 @@ const Projects = () => {
           <h1>Projects</h1>
         </Grid>
         <Grid item className="project__list">
-          <Grid container spacing={5} justifyContent="space-around" alignItems="center">
+          <Grid container spacing={5} justifyContent="space-around" alignItems="center" direction={matches? 'column':'row'} >
+           
+            
             {/* beginning item */}
             <Grid item className="project__item">
               <div className="card">
@@ -34,7 +42,11 @@ const Projects = () => {
                   >
                     <button className="card__btn">site</button>
                   </a>
-                  <a href="https://github.com/IsmaelDembele/react-weather-app" target="_blank" rel='noopener noreferrer'>
+                  <a
+                    href="https://github.com/IsmaelDembele/react-weather-app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <button className="card__btn">code</button>
                   </a>
                 </div>

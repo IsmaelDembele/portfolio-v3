@@ -14,10 +14,20 @@
     width: 90%;
     align-self: center;
     // background-color: aqua;
+    overflow: hidden;
   }
 
   &__item {
     width: 25%;
+
+    @include respond(tab-land) {
+      // width < 960
+      width: 75%;
+    }
+    @include respond(phone) {
+      // width < 960
+      width: 90%;
+    }
   }
 }
 
@@ -28,6 +38,8 @@
   // box-shadow: $shadow;
   display: flex;
   flex-direction: column;
+
+  margin-bottom: 5rem;
 
   &__image {
     display: block;
@@ -53,6 +65,9 @@
     font-size: 1.3rem;
     padding: 0.5rem;
     flex-grow: 1;
+    @include respond(tab-land) {
+      font-size: 1.6rem;
+    }
   }
 
   &__links {
@@ -72,18 +87,28 @@
     cursor: pointer;
     // width: 40%;
     border: none;
-    padding: .3rem 4rem;
+    padding: 0.3rem 4rem;
     background-color: $secondary;
     color: $primary;
     border-radius: 100px;
     transition: all 0.2s;
 
+    @include respond(tab-land) {
+      padding: 0.3rem 8rem;
+    }
+    @include respond(tab-port) {
+      padding: 0.3rem 5.5rem;
+    }
+    @include respond(sm-phone) {
+      padding: 0.3rem 4rem;
+    }
+
     &:hover {
-      transform: translateY(-.3rem);
+      transform: translateY(-0.3rem);
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     }
     &:active {
-      transform: translateY(-.1rem);
+      transform: translateY(-0.1rem);
       box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     }
   }
