@@ -12,7 +12,7 @@ const Header = () => {
       <Grid container className="presentation">
         {/* -------------left side---------------- */}
 
-        <Grid item lg={6} className="presentation__left">
+        <Grid item lg md className="presentation__left">
           <Grid container direction="column" className="presentation__left-box">
             <Grid item>
               <div className="presentation__text">
@@ -41,7 +41,7 @@ const Header = () => {
 
         {/* -------------Right side---------------- */}
 
-        <Grid item lg={6} className="presentation__right">
+        <Grid item lg md className="presentation__right">
           <img src={pic} alt="computer" className="presentation__img" />
         </Grid>
       </Grid>

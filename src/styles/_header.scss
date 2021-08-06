@@ -1,8 +1,13 @@
 #header {
   // padding-top: 7rem;
   min-height: calc(max(100vh, 65rem));
+  // min-height: calc(min(100vh, 20rem));
   width: 90%;
   margin: 0 auto 0 auto;
+
+  @include respond(tab-land) {
+    // min-height: 50px;
+  }
 
   .presentation {
     text-align: center;
@@ -17,12 +22,21 @@
       justify-content: center;
       // background-color: cornsilk;
       height: 95vh;
+
+      @include respond(tab-port) {
+        // width < 960
+        width: 100%;
+      }
     }
 
     &__left-box {
-      // background-color: chartreuse;
       width: 75%;
       min-height: 30rem;
+
+      @include respond(tab-port) {
+        // width < 960
+      }
+      width: 100%;
     }
     &__text {
       font-size: 4rem;
@@ -56,7 +70,11 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      // background-color: #fff;
+
+      @include respond(tab-land) {
+        // width < 960
+        display: none;
+      }
     }
     &__img {
       display: block;

@@ -36,6 +36,13 @@
       // background-color: $nav__bar__hover;
       border-bottom: 0.5rem solid $nav__bar__hover;
     }
+
+    //////////////////////
+    @include respond(tab-land) {
+      // width < 960
+      font-size: 2.5rem;
+      margin-right: 7.5rem;
+    }
   }
 
   &__item:last-child {
@@ -81,5 +88,14 @@
       // background-color: $nav__bar__hover;
       // border-bottom: 0.5rem solid $nav__bar__hover;
     }
+    @include respond(phone) {
+      .MuiTypography-body1 {
+        font-size: 1.79rem;
+      }
+    }
+    // @include respond(sm-phone) {
+    //   // width < 960
+    //   font-size: 38%;
+    // }
   }
 }
