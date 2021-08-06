@@ -1,6 +1,5 @@
 .project {
   min-height: 100vh;
-  // background-color: $secondary;
   width: 100%;
 
   h1 {
@@ -13,7 +12,6 @@
   &__list {
     width: 90%;
     align-self: center;
-    // background-color: aqua;
     overflow: hidden;
   }
 
@@ -21,11 +19,9 @@
     width: 25%;
 
     @include respond(tab-land) {
-      // width < 960
       width: 75%;
     }
     @include respond(phone) {
-      // width < 960
       width: 90%;
     }
   }
@@ -35,7 +31,6 @@
   width: 100%;
   min-height: 36rem;
   background-color: $secondary;
-  // box-shadow: $shadow;
   display: flex;
   flex-direction: column;
 
@@ -53,7 +48,6 @@
     text-align: center;
     font-weight: 600;
     text-transform: uppercase;
-    // align-self: c;
 
     display: flex;
     justify-content: center;
@@ -85,7 +79,6 @@
     text-transform: uppercase;
     display: inline-block;
     cursor: pointer;
-    // width: 40%;
     border: none;
     padding: 0.3rem 4rem;
     background-color: $secondary;

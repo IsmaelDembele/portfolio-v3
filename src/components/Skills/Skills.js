@@ -1,5 +1,5 @@
 import React from "react";
-import App from "./Chart";
+import Chart from "./Chart";
 import options from "./data";
 
 const Skills = () => {
@@ -10,7 +10,7 @@ const Skills = () => {
       <div className="chart">
         {options.map(option => (
           <div className="chart__item">
-            <App option={option} />
+            <Chart option={option} />
           </div>
         ))}
       </div>

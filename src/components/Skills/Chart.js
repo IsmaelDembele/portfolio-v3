@@ -1,25 +1,18 @@
 import React, { Component } from "react";
 import CanvasJSReact from "./canvasjs.react";
 
-//var CanvasJSReact = require('./canvasjs.react');
+const CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
-// var CanvasJS = CanvasJSReact.CanvasJS;
-var CanvasJSChart = CanvasJSReact.CanvasJSChart;
-
-class App extends Component {
+class Chart extends Component {
   render() {
-
     const options = this.props.option;
 
     return (
       <div>
-        <CanvasJSChart
-          options={options}
-          /* onRef = {ref => this.chart = ref} */
-        />
+        <CanvasJSChart options={options} />
       </div>
     );
   }
 }
 
-export default App;
+export default Chart;

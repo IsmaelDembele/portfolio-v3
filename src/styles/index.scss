@@ -5,6 +5,7 @@
 @import "Projects";
 @import "skills";
 @import "contact";
+@import "drawer";
 
 *,
 *::before,
@@ -18,23 +19,16 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
 
-  // @include respond(sm-desk) {
-  //   // width < 1360
-  //   font-size: 60.5%;
-  // }
   @include respond(tab-land) {
-    // width < 1280
     font-size: 62.5%;
   }
   @include respond(tab-port) {
-    // width < 960
     font-size: 62.5%;
   }
   @include respond(phone) {
     font-size: 49%;
   }
   @include respond(sm-phone) {
-    // width < 960
     font-size: 38%;
   }
 }
@@ -50,7 +44,6 @@ body {
 section::before {
   content: "";
   display: block;
-  // z-index: 1;
   border: none;
   border-top: 1px solid $section_separator;
   width: 90%;

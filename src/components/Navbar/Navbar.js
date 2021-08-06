@@ -16,7 +16,6 @@ const Navbar = () => {
           </Link>
         </li>
         <NavbarItem />
-        {/* <MyDrawer /> */}
         <NavbarMenu />
       </ul>
     </nav>
