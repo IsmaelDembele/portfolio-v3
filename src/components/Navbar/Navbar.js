@@ -15,7 +15,7 @@ const Navbar = () => {
             <img src={logo} alt="page logo" className="logo" />
           </Link>
         </li>
-        <NavbarItem />
+        <NavbarItem key={1}/>
         <NavbarMenu />
       </ul>
     </nav>

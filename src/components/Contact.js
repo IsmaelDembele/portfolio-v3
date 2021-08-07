@@ -14,7 +14,7 @@ const Contact = () => {
           <p>Feel free to contact me for any additional question.</p>
           <p>Email : dembele.ismael at gmail.com</p>
 
-          <div item className="contact__social">
+          <div className="contact__social">
             <a href="https://github.com/IsmaelDembele" target="_blank" rel="noopener noreferrer">
               <GitHubIcon className="contact__social__icon" />
             </a>

@@ -5,7 +5,7 @@ const NavbarItem = () => {
   const offset = -57;
 
   return (
-    <div class="navbar__Item_group">
+    <div className="navbar__Item_group">
       <li className="navbar__item">
         <Link to="header" smooth={true} duration={1000}>
           <button>Home</button>
@@ -22,7 +22,7 @@ const NavbarItem = () => {
         </Link>
       </li>
       <li className="navbar__item">
-        <Link to="contact" smooth={true} duration={1000} offset={offset}>
+        <Link  to="contact" smooth={true} duration={1000} offset={offset}>
           <button>Contact</button>
         </Link>
       </li>

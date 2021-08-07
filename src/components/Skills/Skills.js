@@ -8,8 +8,8 @@ const Skills = () => {
       <h2>Skills</h2>
 
       <div className="chart">
-        {options.map(option => (
-          <div className="chart__item">
+        {options.map((option, index) => (
+          <div key={index} className="chart__item">
             <Chart option={option} />
           </div>
         ))}
