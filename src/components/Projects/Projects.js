@@ -19,7 +19,7 @@ const Projects = () => {
         <Grid item className="project__list">
           <Grid
             container
-            spacing={5}
+            spacing={10}
             justifyContent="space-around"
             alignItems="center"
             direction={matches ? "column" : "row"}
