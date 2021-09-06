@@ -8,8 +8,11 @@ export const projectData = [
     imgUrl: idcom,
     description: (
       <p>
-          <b>Note: The app will take a little time to run when you first lunch it because Heroku usually puts it to sleep.</b>
-          <br />
+        <b>
+          Note: The app will take a little time to run when you first lunch it because Heroku
+          usually puts it to sleep.
+        </b>
+        <br />
         iDCom is a frontend part of a MERN Stack eCommerce website. It includes numerous functions
         such as search, sign-in, register, and Google Oauth 2.0.
       </p>
@@ -27,8 +30,8 @@ export const projectData = [
         Cookies and Session. Read the project readme file for more information.
       </p>
     ),
-    siteLink: `https://github.com/IsmaelDembele/iDCom-server`,
-    codeLink: `https://idcom-server.herokuapp.com/`,
+    codeLink: `https://github.com/IsmaelDembele/iDCom-server`,
+    siteLink: `https://idcom-server.herokuapp.com/`,
   },
   {
     title: "React Weather App",
