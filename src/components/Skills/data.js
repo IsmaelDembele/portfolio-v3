@@ -43,12 +43,15 @@ const myData = [
       {
         type: "bar",
         dataPoints: [
-          { label: "Node.js/Express", y: 15 },
+          { label: "Node.js/Express", y: 20 },
           { label: "EJS", y: 15 },
           { label: "REST API", y: 15 },
           { label: "MySQL", y: 20 },
           { label: "MongoDB/Mongoose", y: 20 },
           { label: "SQL", y: 20 },
+          { label: "JWT authentication", y: 10 },
+          { label: "Session and Cookie authentication", y: 10 },
+          { label: "CSRF Protection", y: 10 },
         ],
       },
     ],

@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar/Navbar";
 import Header from "./Header";
-import Projects from "./Projects";
+import Projects from "./Projects/Projects";
 import Skills from "./Skills/Skills";
 import Contact from "./Contact";
 

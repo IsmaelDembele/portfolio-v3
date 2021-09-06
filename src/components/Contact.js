@@ -11,7 +11,7 @@ const Contact = () => {
       <h2>Contact</h2>
       <div className="contact">
         <div className="contact__box">
-          <p>Feel free to contact me for any additional question.</p>
+          <p>Please feel free to contact me if you need any further information.</p>
           <p>Email : dembele.ismael at gmail.com</p>
 
           <div className="contact__social">
