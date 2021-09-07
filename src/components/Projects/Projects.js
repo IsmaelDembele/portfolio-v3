@@ -23,41 +23,19 @@ const Projects = () => {
             justifyContent="space-around"
             alignItems="center"
             direction={matches ? "column" : "row"}
-          >
-            {
-              projectData.map((project,index) =>{
-                return <Card key={index} {...project}/>
-              })
-            }
-            {/* <Card /> */}
-
-            {/* beginning item */}
-            {/* <Grid item className="project__item">
-              <div className="card">
-                <img src={ShoppingCart} alt="react weather app screeshot" className="card__image" />
-                <div className="card__title">Shopping Cart</div>
-                <div className="card__description">
-                  <p>This project is buid with React and Sass. It's uses useReducer.</p>
-                </div>
-                <div className="card__links">
-                  <a
-                    href="https://frontend-shopping-cart.netlify.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <button className="card__btn">site</button>
-                  </a>
-                  <a
-                    href="https://github.com/IsmaelDembele/front-end-shopping-cart"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <button className="card__btn">code</button>
-                  </a>
-                </div>
-              </div>
-            </Grid> */}
-            {/* end item */}
+            >
+                <Card key={1} {...projectData[0]}/>
+                <Card key={2} {...projectData[1]}/>
+          </Grid>
+          <Grid
+            container
+            spacing={10}
+            justifyContent="space-around"
+            alignItems="center"
+            direction={matches ? "column" : "row"}
+            >
+                <Card key={3} {...projectData[2]}/>
+                <Card key={4} {...projectData[3]}/>
           </Grid>
         </Grid>
       </Grid>
