@@ -4,7 +4,7 @@ import idcom from "../../pictures/idcommerce.jpg";
 
 export const projectData = [
   {
-    title: "idcommerce",
+    title: "idcom",
     imgUrl: idcom,
     description: (
       <p>
@@ -17,7 +17,7 @@ export const projectData = [
         such as search, sign-in, register, and Google Oauth 2.0.
       </p>
     ),
-    siteLink: `https://idcommerce.herokuapp.com/`,
+    siteLink: `https://idcom.netlify.app/`,
     codeLink: `https://github.com/IsmaelDembele/iDCom`,
   },
   {
