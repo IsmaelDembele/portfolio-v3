@@ -29,7 +29,7 @@
 
 .card {
   width: 100%;
-  min-height: 40rem;
+  min-height: 42.5rem;
   background-color: $secondary;
   display: flex;
   flex-direction: column;
@@ -56,7 +56,8 @@
 
   &__description {
     min-height: 10rem;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    line-height: 2;
     padding: 0.5rem;
     flex-grow: 1;
     @include respond(tab-land) {

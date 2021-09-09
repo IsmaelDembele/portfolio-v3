@@ -8,13 +8,11 @@ export const projectData = [
     imgUrl: idcom,
     description: (
       <p>
-        <b>
-          Note: The app will take a little time to run when you first lunch it because Heroku
-          usually puts it to sleep.
-        </b>
-        <br />
         iDCom is a frontend part of a MERN Stack eCommerce website. It includes numerous functions
-        such as search, sign-in, register, and Google Oauth 2.0.
+        such as search, sign-in, register, and Google Oauth 2.0. <br/>
+        <b>
+          Note: the app will take some time to run the first time because I do not have paid dyno on Heroku for the server.
+        </b>
       </p>
     ),
     siteLink: `https://idcom.netlify.app/`,
@@ -27,7 +25,7 @@ export const projectData = [
       <p>
         iDCom-server is the back-end part of a MERN Stack website. It includes functionality such as
         bcrypt hashing, connection to a MongoDB database, Google Oauth 2.0, and secure sign-in with
-        Cookies and Session. Read the project readme file for more information.
+        Cookies and Session. You can read the project readme file for more information.
       </p>
     ),
     codeLink: `https://github.com/IsmaelDembele/iDCom-server`,
