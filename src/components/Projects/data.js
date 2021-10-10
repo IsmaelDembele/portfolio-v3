@@ -34,7 +34,7 @@ export const projectData = [
     description: (
       <p>
         Address-Book is a responsive web application build in Typescript, Reactjs, Redux toolkit,
-        and GraphQL Apollo Client.
+        and GraphQL Apollo Client. <br/> You can test with hi@hi.com , pwd 12345 or create a new account.
       </p>
     ),
     codeLink: `https://github.com/IsmaelDembele/addressBook`,
