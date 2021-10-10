@@ -2,6 +2,9 @@
   min-height: 100vh;
   width: 100%;
 
+  display: flex;
+  flex-direction: column;
+
   h1 {
     text-align: center;
     margin-bottom: 5rem;
@@ -13,22 +16,44 @@
     width: 90%;
     align-self: center;
     overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    @include respond(tab-land) {
+      width: 90%;
+
+    }
+    @include respond(tab-port) {
+      width: 100%;
+
+    }
   }
 
   &__item {
     width: 25%;
+    margin-left: 4rem;
+    margin-right: 4rem;
 
     @include respond(tab-land) {
-      width: 75%;
+      width: 35%;
+      margin: 4rem
+    }
+    @include respond(tab-port) {
+      width: 70%;
+      margin: 2rem;
     }
     @include respond(phone) {
       width: 90%;
+      margin: 3rem;
     }
   }
 }
 
 .card {
-  width: 100%;
+  min-width: 29rem;
   min-height: 42.5rem;
   background-color: $secondary;
   display: flex;
@@ -88,10 +113,9 @@
     transition: all 0.2s;
 
     @include respond(tab-land) {
-      padding: 0.3rem 8rem;
     }
     @include respond(tab-port) {
-      padding: 0.3rem 5.5rem;
+      padding: 0.3rem 4.5rem;
     }
     @include respond(sm-phone) {
       padding: 0.3rem 4rem;

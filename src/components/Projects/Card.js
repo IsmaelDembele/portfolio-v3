@@ -1,9 +1,6 @@
-import React from "react";
-import Grid from "@material-ui/core/Grid";
-
 const Card = ({ title, imgUrl, description, siteLink, codeLink }) => {
   return (
-    <Grid item className="project__item">
+    <div item className="project__item">
       <div className="card">
         <img src={imgUrl} alt={title} className="card__image" />
         <div className="card__title">{title}</div>
@@ -12,16 +9,12 @@ const Card = ({ title, imgUrl, description, siteLink, codeLink }) => {
           <a href={siteLink} target="_blank" rel="noopener noreferrer">
             <button className="card__btn">site</button>
           </a>
-          <a
-            href={codeLink}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href={codeLink} target="_blank" rel="noopener noreferrer">
             <button className="card__btn">code</button>
           </a>
         </div>
       </div>
-    </Grid>
+    </div>
   );
 };
 

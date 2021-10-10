@@ -1,6 +1,7 @@
 import ReactWApp from "../../pictures/screenshot_react_weather_app.png";
 import ShoppingCart from "../../pictures/front-end-shopping-cart.jpg";
 import idcom from "../../pictures/idcommerce.jpg";
+import addressBook from "../../pictures/address-book-cropped.png";
 
 export const projectData = [
   {
@@ -9,10 +10,7 @@ export const projectData = [
     description: (
       <p>
         iDCom is a frontend part of a MERN Stack eCommerce website. It includes numerous functions
-        such as search, sign-in, register, and Google Oauth 2.0. <br/>
-        <b>
-          Note: the app will take some time to run the first time because I do not have paid dyno on Heroku for the server.
-        </b>
+        such as search, sign-in, register, and Google Oauth 2.0. <br />
       </p>
     ),
     siteLink: `https://idcom.netlify.app/`,
@@ -23,14 +21,38 @@ export const projectData = [
     imgUrl: idcom,
     description: (
       <p>
-        iDCom-server is the back-end part of a MERN Stack website. It includes functionality such as
-        bcrypt hashing, connection to a MongoDB database, Google Oauth 2.0, and secure sign-in with
-        Cookies and Session. You can read the project readme file for more information.
+        IDCOM-Server is the back-end of IDCOM. It connects to a MongoDB database using Mongoose ODM
+        and authenticates using session, cookie, and Google Oauth2.0.
       </p>
     ),
     codeLink: `https://github.com/IsmaelDembele/iDCom-server`,
     siteLink: `https://idcom-server.herokuapp.com/`,
   },
+  {
+    title: "ADDRESS BOOK",
+    imgUrl: addressBook,
+    description: (
+      <p>
+        Address-Book is a responsive web application build in Typescript, Reactjs, Redux toolkit,
+        and GraphQL Apollo Client.
+      </p>
+    ),
+    codeLink: `https://github.com/IsmaelDembele/addressBook`,
+    siteLink: `https://idcom-address-book.netlify.app/`,
+  },
+  {
+    title: "ADDRESS BOOK SERVER",
+    imgUrl: addressBook,
+    description: (
+      <p>
+        Address-Book-SERVER is the back-end of Address-Book. It is build using Typescript, GraphQL
+        Apollo server, JWT auth, PostgreSQL.
+      </p>
+    ),
+    codeLink: `https://github.com/IsmaelDembele/address-book-server`,
+    siteLink: `https://server-address-book.herokuapp.com/`,
+  },
+
   {
     title: "React Weather App",
     imgUrl: ReactWApp,
