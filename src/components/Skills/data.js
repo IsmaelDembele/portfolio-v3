@@ -1,16 +1,18 @@
+const myTitle = {
+  fontColor: "#888",
+  fontWeight: "lighter",
+};
+
+const axisYValues = {
+  title: "Beginner: 10 | Intermediary : 20 | expert: 30  ",
+  includeZero: true,
+  titleFontSize: 12,
+  titleFontFamily: "Poppins",
+};
 const myData = [
   {
-    title: {
-      text: "Front End Web Development",
-      fontColor: "#888",
-      fontWeight: "lighter",
-    },
-    axisY: {
-      title: "Beginner: 10 | Intermediary : 20 | expert: 30  ",
-      includeZero: true,
-      titleFontSize: 12,
-      titleFontFamily: "Poppins",
-    },
+    title: { ...myTitle, text: "Front End Web Development" },
+    axisY: axisYValues,
     data: [
       {
         type: "bar",
@@ -20,7 +22,9 @@ const myData = [
           { label: "Html", y: 30 },
           { label: "CSS/SASS", y: 20 },
           { label: "Bootstrap", y: 20 },
-          { label: "SEO", y: 15 },
+          { label: "SEO", y: 20 },
+          { label: "Redux Toolkit", y: 15 },
+          { label: "Typescript", y: 20 },
           { label: "JavaScrypt (ES6+)", y: 20 },
           { label: "Reactjs", y: 15 },
         ],
@@ -29,44 +33,28 @@ const myData = [
   },
 
   {
-    title: {
-      text: "Backend Web Development",
-      fontColor: "#888",
-      fontWeight: "lighter",
-    },
-    axisY: {
-      title: "Beginner: 10 | Intermediary : 20 | expert: 30  ",
-      includeZero: true,
-      titleFontSize: 12,
-    },
+    title: { text: "Backend Web Development", ...myTitle },
+    axisY: axisYValues,
     data: [
       {
         type: "bar",
         dataPoints: [
           { label: "Node.js/Express", y: 20 },
-          { label: "EJS", y: 10 },
-          { label: "REST API", y: 15 },
-          { label: "MySQL", y: 15 },
+          { label: "GraphQL", y: 20 },
+          { label: "REST API", y: 20 },
+          { label: "PostgreSQL", y: 20 },
           { label: "MongoDB/Mongoose", y: 20 },
           { label: "SQL", y: 20 },
-          { label: "JWT authentication", y: 10 },
-          { label: "Session and Cookie authentication", y: 10 },
+          { label: "JWT auth", y: 15 },
+          { label: "Session and Cookie auth", y: 10 },
           { label: "CSRF Protection", y: 10 },
         ],
       },
     ],
   },
   {
-    title: {
-      text: "Others",
-      fontColor: "#888",
-      fontWeight: "lighter",
-    },
-    axisY: {
-      title: "Beginner: 10 | Intermediary : 20 | expert: 30  ",
-      includeZero: true,
-      titleFontSize: 12,
-    },
+    title: { text: "Others", ...myTitle },
+    axisY: axisYValues,
     data: [
       {
         type: "bar",
