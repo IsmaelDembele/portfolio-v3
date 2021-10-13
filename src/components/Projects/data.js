@@ -22,7 +22,8 @@ export const projectData = [
     description: (
       <p>
         IDCOM-Server is the back-end of IDCOM. It connects to a MongoDB database using Mongoose ODM
-        and authenticates using session, cookie, and Google Oauth2.0.
+        and authenticates using session, cookie, and Google Oauth2.0. It is implemented using MVC
+        pattern.
       </p>
     ),
     codeLink: `https://github.com/IsmaelDembele/iDCom-server`,
@@ -34,7 +35,8 @@ export const projectData = [
     description: (
       <p>
         Address-Book is a responsive web application build in Typescript, Reactjs, Redux toolkit,
-        and GraphQL Apollo Client. <br/> You can test with hi@hi.com , pwd 12345 or create a new account.
+        and GraphQL Apollo Client. <br /> You can test with hi@hi.com , pwd 12345 or create a new
+        account.
       </p>
     ),
     codeLink: `https://github.com/IsmaelDembele/addressBook`,

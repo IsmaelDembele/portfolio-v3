@@ -24,11 +24,9 @@
 
     @include respond(tab-land) {
       width: 90%;
-
     }
     @include respond(tab-port) {
       width: 100%;
-
     }
   }
 
@@ -39,7 +37,7 @@
 
     @include respond(tab-land) {
       width: 35%;
-      margin: 4rem
+      margin: 4rem;
     }
     @include respond(tab-port) {
       width: 70%;
@@ -54,7 +52,7 @@
 
 .card {
   min-width: 29rem;
-  min-height: 42.5rem;
+  min-height: 46.5rem;
   background-color: $secondary;
   display: flex;
   flex-direction: column;
