@@ -22,8 +22,8 @@ export const projectData = [
     description: (
       <p>
         IDCOM-Server is the back-end of IDCOM. It connects to a MongoDB database using Mongoose ODM
-        and authenticates using session, cookie, and Google Oauth2.0. It is implemented using MVC
-        pattern.
+        and authenticates using session, cookie, csrf protection and Google Oauth2.0. It is
+        implemented using MVC pattern.
       </p>
     ),
     codeLink: `https://github.com/IsmaelDembele/iDCom-server`,
