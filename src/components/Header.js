@@ -16,7 +16,7 @@ const Header = () => {
           <Grid container direction="column" className="presentation__left-box">
             <Grid item>
               <div className="presentation__text">
-                <p>I am Ismael Dembele</p>
+                <p>I am Ismael Dembelee</p>
                 <p>a full stact developper</p>
                 <p>base in Pittsburgh, PA</p>
               </div>
