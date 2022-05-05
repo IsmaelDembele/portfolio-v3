@@ -19,16 +19,16 @@ const Home: NextPage = () => {
       <nav>
         <ul>
           <li className={styles.logo}>Ismael Dembele</li>
-          <Link href="/#header" as="/">
+          <Link href="/#header" as="/" passHref>
             <li>Home</li>
           </Link>
-          <Link href="/#projects">
+          <Link href="/#projects" passHref>
             <li>Projects</li>
           </Link>
-          <Link href="/#skills">
+          <Link href="/#skills" passHref>
             <li>Skills</li>
           </Link>
-          <Link href="/#contacts">
+          <Link href="/#contacts" passHref>
             <li>Contacts</li>
           </Link>
         </ul>
