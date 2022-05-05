@@ -16,21 +16,21 @@ const Projects = () => {
                 {el.description}
                 <br />
                 Check out the
-                <a href={el.frontEnd} target="_blank">
+                <a href={el.frontEnd} target="_blank" rel="noreferrer">
                   front-end
                 </a>
                 ,&nbsp;&nbsp;
-                <a href={el.backEnd} target="_blank">
+                <a href={el.backEnd} target="_blank" rel="noreferrer">
                   back-end
                 </a>
                 , and
-                <a href={el.live} target="_blank">
+                <a href={el.live} target="_blank" rel="noreferrer">
                   &nbsp; live
                 </a>
                 .
               </div>
               <div className={styles["projects--image"]}>
-                <a href={el.live} target="_blank">
+                <a href={el.live} target="_blank" rel="noreferrer">
                   <Image
                     src={el.img.src}
                     alt={el.img.alt}

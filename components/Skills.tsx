@@ -30,7 +30,7 @@ interface ISide {
 const display_line = (side: ISide[]) => {
   return side.map(el => {
     return (
-      <div className={styles["skills--line"]}>
+      <div key={uuidv4()} className={styles["skills--line"]}>
         <div className={styles["skills--name"]}>{el.name} </div>
         <span className={styles["skills--value"]}>
           <Rating value={el.value} readOnly size={"large"} />
