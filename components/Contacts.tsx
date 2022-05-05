@@ -13,13 +13,13 @@ const Contacts = () => {
           dembele.ismael at gmail.com
         </p>
         <div className={styles["contacts--items"]}>
-          <a href="https://github.com/IsmaelDembele" target="_blank">
+          <a href="https://github.com/IsmaelDembele" target="_blank" rel="noreferrer">
             <GitHubIcon sx={{ fontSize: 30, cursor: "pointer" }} />
           </a>
           <a href="mailto:dembele.ismael@gmail.com">
             <EmailIcon sx={{ fontSize: 30, cursor: "pointer" }} />
           </a>
-          <a href="/Resume.pdf" target="_blank">
+          <a href="/Resume.pdf" target="_blank" rel="noreferrer">
             <ContactPageIcon sx={{ fontSize: 30, cursor: "pointer" }} />
           </a>
         </div>

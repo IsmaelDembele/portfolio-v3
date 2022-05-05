@@ -16,13 +16,13 @@ const Header = () => {
             <p>based in Pittsburgh, PA</p>
           </div>
           <div className={styles["header--social"]}>
-            <a href="https://github.com/IsmaelDembele" target="_blank">
+            <a href="https://github.com/IsmaelDembele" target="_blank" rel="noreferrer">
               <GitHubIcon sx={{ fontSize: 25, cursor: "pointer" }} />
             </a>
             <a href="mailto:dembele.ismael@gmail.com">
               <EmailIcon sx={{ fontSize: 25, cursor: "pointer" }} />
             </a>
-            <a href="/Resume.pdf" target="_blank">
+            <a href="/Resume.pdf" target="_blank" rel="noreferrer">
               <ContactPageIcon sx={{ fontSize: 25, cursor: "pointer" }} />
             </a>
           </div>
