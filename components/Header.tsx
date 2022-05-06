@@ -31,9 +31,10 @@ const Header = () => {
           <Image
             src={picture}
             alt="Picture of the laptop"
-            layout="responsive"
-            width={100}
-            height={130}
+            // layout="responsive"
+            layout="fixed"
+            width={300}
+            height={400}
             className={styles.img}
             priority
             placeholder="blur"

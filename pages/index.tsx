@@ -19,7 +19,7 @@ const Home: NextPage = () => {
   }, [matchesTabPort, setDrawer]);
 
   return (
-    <div onClick={() => toggleDrawer()}>
+    <div onClick={() => drawer && setDrawer(false)}>
       <Head>
         <title>Porfolio</title>
         <meta name="description" content="My personal portfolio" />
@@ -33,7 +33,7 @@ const Home: NextPage = () => {
         <Header />
         <Projects />
         <Skills />
-        <Contacts />
+        <Contacts /> 
       </main>
     </div>
   );

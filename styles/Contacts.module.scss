@@ -1,4 +1,12 @@
 .contacts {
+  @include respond(tab-land) {
+    width: 100%;
+    // padding: 4rem;
+  }
+  @include respond(phone) {
+    padding: 0;
+    min-height: 43rem;
+  }
   &--container {
     @include center__margin;
     background-color: #f5f5f5;
@@ -8,12 +16,23 @@
     text-align: center;
     box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
     border-radius: 3px;
+    @include respond(tab-land) {
+      width: 100%;
+      padding: 10rem 5%;
+    }
+    @include respond(phone) {
+      padding: 5rem 5%;
+    }
   }
   &--description {
     font-size: 2rem;
     margin-bottom: 5rem;
     line-height: 3rem;
     letter-spacing: 2px;
+    @include respond(tab-port) {
+      letter-spacing: 1px;
+      font-size: 1.6rem;
+    }
   }
   &--items {
     display: flex;

@@ -9,7 +9,7 @@ const Contacts = () => {
       <h1>Contacts</h1>
       <div className={styles["contacts--container"]}>
         <p className={styles["contacts--description"]}>
-          Feel free to contact me if you need any further information. <br />
+          Feel free to contact me if you need any additional information. <br />
           dembele.ismael at gmail.com
         </p>
         <div className={styles["contacts--items"]}>
