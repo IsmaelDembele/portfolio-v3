@@ -8,7 +8,6 @@ import { AppContext } from "../context";
 const Navbar = () => {
   const { toggleDrawer } = useContext(AppContext);
 
-
   return (
     <nav>
       <ul>

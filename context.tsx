@@ -1,10 +1,5 @@
 import React, { createContext, useState } from "react";
 
-// interface IProvider {
-//   drawer: boolean;
-//   serDrawer: React.Dispatch<React.SetStateAction<boolean>>;
-// }
-
 export const AppContext = createContext<any>(false);
 
 type TProps = {

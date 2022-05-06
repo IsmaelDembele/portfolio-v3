@@ -31,7 +31,6 @@ const Header = () => {
           <Image
             src={picture}
             alt="Picture of the laptop"
-            // layout="responsive"
             layout="fixed"
             width={300}
             height={400}
