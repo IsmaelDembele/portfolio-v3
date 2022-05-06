@@ -3,9 +3,9 @@
   top: 5rem;
   left: 0;
   width: 15rem;
-  height: calc(100vh - 5rem) ;
+  height: calc(100vh - 5rem);
   z-index: 100;
-  background-color: #f0f0f0;
+  background-color: #f0f0f0de;
   padding-top: 2rem;
 
   display: flex;
@@ -14,8 +14,10 @@
 
   &--item {
     cursor: pointer;
+    font-size: 2rem;
     width: 10rem;
-    padding-bottom: 1.5rem;
+    padding: 2rem 0;
     letter-spacing: 2px;
+    border-bottom: 1px solid #fff;
   }
 }

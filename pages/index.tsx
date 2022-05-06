@@ -16,7 +16,7 @@ const Home: NextPage = () => {
 
   useEffect(() => {
     !matchesTabPort && setDrawer(false);
-  }, [matchesTabPort]);
+  }, [matchesTabPort, setDrawer]);
 
   return (
     <div onClick={() => toggleDrawer()}>
