@@ -105,7 +105,7 @@ export const skillsData: ISkillsData[] = [
         value: 2,
       },
       {
-        name: "Shell",
+        name: "Shell/Bash",
         value: 4,
       },
     ],
