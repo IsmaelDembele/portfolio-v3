@@ -11,11 +11,8 @@ const Navbar = () => {
   return (
     <nav>
       <ul>
-        <li className={styles.logo}>
-          <p>Ismael Dembele</p>
-        </li>
         <Link href="/#header" as="/" passHref>
-          <li>Home</li>
+          <li className={styles["first-li"]}>Home</li>
         </Link>
         <Link href="/#projects" passHref>
           <li>Projects</li>

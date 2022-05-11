@@ -21,7 +21,12 @@
 
 .menu {
   display: none;
+  border-bottom: 0.5rem solid transparent !important;
   @include respond(tab-port) {
     display: block;
   }
+}
+
+.first-li {
+  margin-left: auto;
 }
