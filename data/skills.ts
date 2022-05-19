@@ -59,10 +59,6 @@ export const skillsData: ISkillsData[] = [
         name: "SQL / NoSQL",
         value: 4,
       },
-      {
-        name: "GraphQL",
-        value: 3,
-      },
     ],
     right: [
       {
@@ -100,6 +96,10 @@ export const skillsData: ISkillsData[] = [
       },
     ],
     right: [
+      {
+        name: "JavaScript/TypeScript",
+        value: 4,
+      },
       {
         name: "Java",
         value: 3,
