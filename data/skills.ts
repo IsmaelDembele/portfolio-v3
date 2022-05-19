@@ -94,6 +94,10 @@ export const skillsData: ISkillsData[] = [
         name: "Git, Github, Version Control",
         value: 4,
       },
+      {
+        name: "Docker",
+        value: 3,
+      },
     ],
     right: [
       {
