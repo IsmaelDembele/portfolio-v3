@@ -11,7 +11,7 @@ const Header = () => {
       <div className={styles["header--box"]}>
         <div className={styles["header--left"]}>
           <div className={styles["header--text"]}>
-            <p> I am Ismael Dembele new </p>
+            <p> I am Ismael Dembele</p>
             <p>a full stact developper</p>
             <p>based in Pittsburgh, PA</p>
           </div>
