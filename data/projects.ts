@@ -15,16 +15,6 @@ export const data = [
     },
   },
   {
-    description: `iDCom is a MongoDb, Express, React and Nodejs (MERN) stack web application. It includes numerous functionalities such as search, sign-in, register, and Google Oauth 2.0. csrf attack protection and Google Oauth2.0. It is implemented using MVC pattern.`,
-    frontEnd: "https://github.com/IsmaelDembele/iDCom",
-    backEnd: "https://github.com/IsmaelDembele/iDCom-server",
-    live: "https://idcom.netlify.app/",
-    img: {
-      src: idcom,
-      alt: "idcommerce app",
-    },
-  },
-  {
     description: `Address-Book is a responsive web application build in Typescript, Reactjs, Redux toolkit, JWT auth, PostgreSQL, and GraphQL Apollo Client and Server.
    You can test with hi@hi.com , pwd 12345 or create a new account.`,
     frontEnd: "https://github.com/IsmaelDembele/addressBook",
@@ -33,6 +23,16 @@ export const data = [
     img: {
       src: addressbook,
       alt: "address book app",
+    },
+  },
+  {
+    description: `iDCom is a MongoDb, Express, React and Nodejs (MERN) stack web application. It includes numerous functionalities such as search, sign-in, register, and Google Oauth 2.0. csrf attack protection and Google Oauth2.0. It is implemented using MVC pattern.`,
+    frontEnd: "https://github.com/IsmaelDembele/iDCom",
+    backEnd: "https://github.com/IsmaelDembele/iDCom-server",
+    live: "https://idcom.netlify.app/",
+    img: {
+      src: idcom,
+      alt: "idcommerce app",
     },
   },
 ];
