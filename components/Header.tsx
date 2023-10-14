@@ -12,7 +12,7 @@ const Header = () => {
         <div className={styles["header--left"]}>
           <div className={styles["header--text"]}>
             <p> I am Ismael Dembele</p>
-            <p>a full stact developper</p>
+            <p>a full stact developer</p>
             <p>based in Pittsburgh, PA</p>
           </div>
           <div className={styles["header--social"]}>
